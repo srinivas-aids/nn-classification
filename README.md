@@ -170,7 +170,7 @@ x_single_prediction = np.argmax(ai_brain.predict(x_test_scaled[1:2,:]), axis=1)
 print(x_single_prediction)
 print(le.inverse_transform(x_single_prediction))
 ```
-~~~
+
 
 ## Dataset Information
 
